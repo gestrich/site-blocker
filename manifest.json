@@ -11,8 +11,17 @@
   "content_scripts": [
     {
       "matches": [
+        "https://www.aol.com/*",
+        "https://www.cnn.com/*",
         "https://www.facebook.com/*",
-        "https://www.netflix.com/*"
+        "https://www.foxnews.com/*",
+        "https://www.kdka.com/*",
+        "https://www.thehill.com/*",
+        "https://www.twitter.com/*",
+        "https://twitter.com/*",
+        "https://www.wpxi.com/*",
+        "https://www.wtae.com/*",
+        "https://www.youtube.com/*"
       ],
       "css": [
         "css/style.css"
