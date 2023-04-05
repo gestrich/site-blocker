@@ -11,8 +11,10 @@
   "content_scripts": [
     {
       "matches": [
+        "https://www.linkedin.com/*",
         "https://www.aol.com/*",
         "https://www.cnn.com/*",
+        "https://edition.cnn.com/*",
         "https://www.facebook.com/*",
         "https://www.foxnews.com/*",
         "https://www.kdka.com/*",
@@ -22,7 +24,9 @@
         "https://twitter.com/*",
         "https://www.wpxi.com/*",
         "https://www.wtae.com/*",
-        "https://www.youtube.com/*"
+        "https://www.youtube.com/*",
+        "https://loop.zulipchat.com/*",
+        "https://www.reddit.com/*"
       ],
       "css": [
         "css/style.css"
